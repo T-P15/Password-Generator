@@ -39,13 +39,13 @@ function generatePassword(length, numbers, uppercase, lowercase, symbols){
 }
 
  function generate(){
-    const length = document.getElementById("length").value;
-    const numbers = document.getElementById("numbers").checked;
-    const uppercase = document.getElementById("uppercase").checked;
-    const lowercase = document.getElementById("lowercase").checked;
-    const symbols = document.getElementById("symbols").checked;
+    var length = document.getElementById("length").value;
+    var numbers = document.getElementById("numbers").checked;
+    var uppercase = document.getElementById("uppercase").checked;
+    var lowercase = document.getElementById("lowercase").checked;
+    var symbols = document.getElementById("symbols").checked;
 
-    const password= generatePassword(parseInt(length), numbers, uppercase, lowercase, symbols)
+    var password= generatePassword(parseInt(length), numbers, uppercase, lowercase, symbols)
 
 
     var passwordText = document.querySelector("#password");

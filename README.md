@@ -13,3 +13,7 @@ To Install this project follow the github page below https://t-p15.github.io/Pas
 ## Usage
 
 To use this project navigate to the page provided above and click generate password. A popup form will appear allowing you to select the values you wish to be included in your password. Once you have selected what you want your password to contain click generate your password and watch the magic occur!
+
+## Credits
+
+https://www.youtube.com/watch?v=m5XF1OQ6rSg This Video taught me the basics behind generating the password value
