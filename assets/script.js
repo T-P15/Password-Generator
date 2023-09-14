@@ -1,7 +1,7 @@
 // Assignment code here
 function generatePassword() {
     var key = '';
-    var inputs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
+    var inputs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&()*+,-./:;<=>?@^_`{|}~';
 
          for (let i = 1; i <= 12; i++) {
             var number = Math.floor(Math.random() * inputs.length);
