@@ -3,15 +3,11 @@ function generatePassword() {
     var key = '';
     var inputs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
 
-    for (let i = 1; i <= 12; i++) {
-        var character = Math.floor(Math.random()
-            * inputs.length);
-
-     key += inputs.charAt(character)
-    }
-
-    return key;
-
+         for (let i = 1; i <= 12; i++) {
+            var number = Math.floor(Math.random() * inputs.length);
+            key += inputs.charAt(number)
+         }
+    return key
 }
 
 // Get references to the #generate element
